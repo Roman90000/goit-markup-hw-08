@@ -1,0 +1,22 @@
+@import "./base/body";
+@import "./components/container";
+@import "./base/reset";
+@import "./base/common.scss";
+@import "./utils/variables";
+@import "./utils/hidden";
+
+//------------------index----------------//
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/what-we-do";
+@import "./layout/our-team";
+@import "./layout/box-social";
+@import "./layout/regular-clients";
+@import "./layout/modal";
+@import "./layout/footer";
+
+// ----------------poftfolio------------------//
+
+@import "./layout/button-portfolio";
+@import "./layout/content-portfolio";
