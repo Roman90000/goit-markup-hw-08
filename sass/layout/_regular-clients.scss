@@ -8,6 +8,7 @@
   padding-bottom: 60px;
   padding-top: 60px;
   width: 480px;
+  margin: 0 auto;
   @media screen and (min-width: 768px) {
       width: 768px;
     }
@@ -45,6 +46,7 @@
   flex-wrap: wrap;
   text-decoration: none;
   list-style: none;
+
   @media screen and (min-width: 1200px) {
       // margin-left: 215px;
     }
@@ -73,9 +75,9 @@
     fill: var(--color-link);
   }
 
-  &:not(:last-child) {
-    // margin-right: 30px;
-  }
+  // &:not(:last-child) {
+  //   // margin-right: 30px;
+  // }
 
     @media screen and (min-width: 768px) {
     width: 226px;

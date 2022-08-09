@@ -452,6 +452,7 @@ img {
   padding-bottom: 118px;
   width: 480px;
   height: 400px;
+  margin-left: auto;
   background-size: cover;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header-img-mob.jpg);
 }
@@ -565,10 +566,6 @@ img {
   list-style: none;
 }
 
-.list-svg {
-  text-decoration: none;
-}
-
 .list__heading {
   text-decoration: none;
 }
@@ -582,6 +579,7 @@ img {
   margin-right: 15px;
   border-radius: 4px;
   text-align: center;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -865,6 +863,7 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
   width: 480px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
