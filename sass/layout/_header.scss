@@ -270,6 +270,11 @@
   // left: 0;
 }
 
+.btn-mob-open {
+  padding: 12px 8px;
+  background-color: #ffffff;
+  border: none;
+}
   @media screen and (min-width: 768px) {
       .btn-mob-open {
         display: none;

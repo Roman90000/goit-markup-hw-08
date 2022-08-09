@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -9,7 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-/* Остальной код */
 body {
   font-family: Roboto, sans-serif;
   width: 100%;
@@ -342,6 +340,12 @@ img {
   width: 100vw;
   height: 100vw;
   top: 0;
+}
+
+.btn-mob-open {
+  padding: 12px 8px;
+  background-color: #ffffff;
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
