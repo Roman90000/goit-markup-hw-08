@@ -24,13 +24,7 @@
   border-radius: 4px;
 
   display: flex;
-  position: absolute;
   display: block;
- 
-  @media screen and (min-width: 1200px) {
-      width: 528px;
-      height: 581px;
-    }
 }
 
 .modal-close {
@@ -58,7 +52,7 @@
   }
 }
 
-.is-hidden {
+.dden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -188,6 +182,7 @@
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: underline;
+  margin-left: 5px;
 
   @media screen and (min-width: 1200px) {
       font-size: 14px;
