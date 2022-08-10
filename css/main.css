@@ -986,6 +986,13 @@ img {
   display: block;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
+
 .modal-close {
   position: absolute;
   top: 8px;
