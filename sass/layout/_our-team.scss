@@ -1,6 +1,5 @@
 .photo__title {
   font-weight: bold;
-  // font-size: 36px;
   font-size: 28px;
   line-height: calc(33 / 28);
   text-align: center;
@@ -52,7 +51,6 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-
   margin-bottom: 16px;
 }
 
@@ -82,13 +80,13 @@
         margin-right: 30px;
       }
     }
-    @media screen and (min-width: 1200px) {
-      width: 270px;
+  @media screen and (min-width: 1200px) {
+    width: 270px;
 
-      &:not(:last-child) {
-        margin-right: 30px;
-      }
+    &:not(:last-child) {
+      margin-right: 30px;
     }
+  }
 }
 
 .pfoto-team:last-child {

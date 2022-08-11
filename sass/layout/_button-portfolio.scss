@@ -10,7 +10,6 @@
   border-color: transparent;
 
   padding: 6px 22px;
-  // margin-bottom: 50px;
 
   cursor: pointer;
   border: none;
@@ -30,8 +29,8 @@
 }
 
 .list-button {
-  // padding-top: 94px;
   padding: 60px 15px 40px 15px;
+
   @media screen and (min-width: 768px) {
       padding: 60px 78px 30px 78px;
     }
@@ -42,7 +41,6 @@
 
 .btn:not(:last-child) {
   margin-right: 8px;
-  // padding-bottom: 15px;
 }
 
 .btn:nth-child(-n + 3) {

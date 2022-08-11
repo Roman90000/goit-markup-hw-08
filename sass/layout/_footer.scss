@@ -1,8 +1,8 @@
-  @media screen and (min-width: 1200px) {
-    .footer-flex {
-      display: flex;
-    }
+@media screen and (min-width: 1200px) {
+  .footer-flex {
+    display: flex;
   }
+}
 
 .footer-conteiner {
   @media screen and (min-width: 768px) {
@@ -33,13 +33,12 @@
 .header-web {
   color: #2196f3;
 }
+
 .header-logo-footer {
   color: var(--primary-body-color);
-  // font-size: 26px;
   font-size: 24px;
   line-height: 1.16;
   font-style: normal;
-  // line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -47,6 +46,7 @@
   display: inline-block;
   margin-left: 163px;
   margin-bottom: 20px;
+
   @media screen and (min-width: 768px) {
       margin-left: 115px;
       font-style: normal;
@@ -126,7 +126,6 @@
 
 .box-footer {
   width: 206px;
-  // height: 80px;
   margin-right: auto;
   margin-left: auto;
   @media screen and (min-width: 768px) {
@@ -202,7 +201,6 @@
   letter-spacing: 0.03em;
   color: var(--primary-color-paragraph);
 
-  // padding-bottom: 20px;
   margin-right: 24px;
   margin-left: 24px;
 }
@@ -226,27 +224,13 @@
   }
 } 
 
-// .subscription-box {
-  // padding-left: 15px;
-  // margin-right: 215px;
-  // display: flex;
-  // align-items: center;
-  // align-items: flex-end;
-  // margin-left: 15px;
-// }
-
 .subscription-input {
   display: block;
   padding-top: 15px;
   padding-bottom: 15px;
-  // padding-top: 20px;
-  // padding-bottom: 20px;
   padding-left: 16px;
-  // margin-right: 12px;
   margin-top: 20px;
   margin-bottom: 20px;
-  // margin-left: 15px;
-  // width: 358px;
   width: 450px;
   height: 50px;
   color: #ffffff;
@@ -265,11 +249,12 @@
     }
 }
 
-  @media screen and (min-width: 1200px) {
-    .subscription-box {
-      display: flex;
-    }
+@media screen and (min-width: 1200px) {
+  .subscription-box {
+    display: flex;
   }
+}
+
 .button-email {
   width: 200px;
   height: 50px;
@@ -295,6 +280,7 @@
   text-align: center;
   border: none;
   cursor: pointer;
+  
   @media screen and (min-width: 768px) {
     margin-left: auto;
     margin-right: auto;
