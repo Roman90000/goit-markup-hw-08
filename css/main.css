@@ -1003,6 +1003,7 @@ img {
   box-sizing: border-box;
   border: none;
   padding: 0px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-modal {
@@ -1016,6 +1017,10 @@ img {
 }
 
 .icon-modal:hover {
+  fill: var(--header-web);
+}
+
+.btn-mobile-close:hover {
   fill: var(--header-web);
 }
 
