@@ -2,6 +2,7 @@
   padding-top: 60px;
   padding-bottom: 30px;
   list-style: none;
+  max-width: 480px;
 
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -15,15 +16,15 @@
       padding-bottom: 94px;
       display: flex;
       flex-wrap: nowrap;
-      margin-left: auto;
-      margin-right: auto;
+      // margin-left: auto;
+      // margin-right: auto;
   }
 }
 
 .list-photo {
     justify-content: center;
-      display: flex;
-        list-style: none;
+    display: flex;
+    list-style: none;
 }
 
 .list__heading {
@@ -31,7 +32,7 @@
 }
 .list__svg {
   background-color: #f5f4fa;
-  width: 450px;
+  // width: 100%;
   height: 120px;
   margin-bottom: 30px;
   margin-left: 15px;
@@ -53,25 +54,25 @@
 }
 
 .list__svg-antenna {
-  width: 65.32px;
+  max-width: 65.32px;
   height: 70px;
   margin: 25px 102.34px;
 }
 
 .list__svg-clock {
-  width: 66.96px;
+  max-width: 66.96px;
   height: 70px;
   margin: 25px 101.5px;
 }
 
 .list__svg-diagram {
-  width: 70px;
+  max-width: 70px;
   height: 53.69px;
   margin: 33.2px 100px 33.11px 100px;
 }
 
 .list__svg-astronaut {
-  width: 70px;
+  max-width: 70px;
   height: 70px;
   margin: 25px 100px;
 }
@@ -82,8 +83,8 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  width: 450px;
-  height: 50px;
+  // width: 450px;
+  // height: 50px;
   margin-left: 15px;
   margin-bottom: 30px;
 
@@ -105,7 +106,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
-  width: 270px;
+  // width: 270px;
   height: 16px;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -121,6 +122,8 @@
   display: none;
   @media screen and (min-width: 1200px) {
       display: block;
+      margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -136,7 +139,7 @@
 }
 
 .photo__img-info {
-  width: 370px;
+  max-width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
   text-align: center;

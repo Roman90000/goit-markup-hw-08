@@ -3,13 +3,14 @@
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
-  width: 480px;
+  // max-width: 480px;
   height: 400px;
-  margin-left: auto;
+  margin: 0px auto;
+  // margin-left: auto;
   background-size: cover;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Header-img-mob.jpg);
-   
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -30,7 +31,7 @@
   }
       
   @media screen and (min-width: 1200px) {
-      width: 1600px;
+      width: 1200px;
       height: 600px;
       padding-top: 200px;
       padding-bottom: 200px;
@@ -80,7 +81,7 @@ margin-bottom: 30px;
   }
 
   @media screen and (min-width: 1200px) {
-      margin-right: 700px;
-      margin-left: 700px;
+      margin-right: auto;
+      margin-left: auto;
   }
 }
