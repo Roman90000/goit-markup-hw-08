@@ -45,12 +45,11 @@
   @media screen and (min-width: 768px) {
       padding: 60px 78px 30px 78px;
     }
-  // @media screen and (min-width: 1200px) {
-  //   // padding-left: 297px;
-  //   // padding: 94px 494px 50px 494px;
-      
-    
-  // }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    margin-left: 215px;
+    margin-right: 215px;
+  }
 }
 
 .btn:not(:last-child) {
@@ -65,5 +64,12 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  // justify-content: flex-start;
+  @media screen and (min-width: 480px) {
+      justify-content: flex-start;
+      padding-left: 15px;
+    }
+    @media screen and (min-width: 480px) {
+      justify-content: center;
+      padding-left: 0px;
+    }
 }
