@@ -37,27 +37,27 @@
   border-bottom: 1px solid #ececec;
   
   @media screen and (min-width: 1200px) {
-      width: 1200px;
+      width: 1600px;
     }
 }
 
-.header-container {
-margin-left: auto;
-margin-right: auto;
-  @media screen and (min-width: 480px) {
-      max-width: 480px;
-    }
+// .header-container {
+// margin-left: auto;
+// margin-right: auto;
+//   // @media screen and (min-width: 480px) {
+//   //     max-width: 480px;
+//   //   }
 
-        @media screen and (min-width: 768px) {
-          max-width: 768px;
-        }
+//   //       @media screen and (min-width: 768px) {
+//   //         max-width: 768px;
+//   //       }
 
-                // @media screen and (min-width: 1200px) {
-                //   max-width: 1200px;
-                //   margin-left: auto;
-                //     margin-right: auto;
-                // }
-}
+//                 // @media screen and (min-width: 1200px) {
+//                 //   max-width: 1200px;
+//                 //   margin-left: auto;
+//                 //     margin-right: auto;
+//                 // }
+// }
 .header-list {
   justify-content: center;
   display: none;
