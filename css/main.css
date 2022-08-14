@@ -89,6 +89,14 @@ img {
   margin-right: auto;
 }
 
+@media screen and (min-width: 480px) {
+  .header__main-nav {
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header__main-nav {
     width: 768px;
@@ -107,7 +115,6 @@ img {
     padding-bottom: 25px;
     padding-top: 24px;
     margin-right: auto;
-    margin-left: auto;
     margin-left: auto;
   }
 }
