@@ -49,7 +49,7 @@ h6 {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -91,9 +91,12 @@ img {
 
 @media screen and (min-width: 768px) {
   .header__main-nav {
+    width: 768px;
     height: 80px;
     padding-top: 21px;
     padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -104,6 +107,7 @@ img {
     padding-bottom: 25px;
     padding-top: 24px;
     margin-right: auto;
+    margin-left: auto;
     margin-left: auto;
   }
 }
@@ -123,6 +127,23 @@ img {
 @media screen and (min-width: 1200px) {
   .header {
     width: 1200px;
+  }
+}
+
+.header-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .header-container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
   }
 }
 
@@ -451,8 +472,9 @@ img {
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
+  max-width: 480px;
   height: 400px;
-  margin: 0px auto;
+  margin-left: auto;
   background-size: cover;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header-img-mob.jpg);
 }
@@ -465,7 +487,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
+    max-width: 768px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header-img-tab.jpg);
   }
 }
@@ -478,7 +500,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1200px;
+    max-width: 1600px;
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -538,7 +560,6 @@ img {
   padding-top: 60px;
   padding-bottom: 30px;
   list-style: none;
-  max-width: 480px;
 }
 
 @media screen and (min-width: 768px) {
@@ -551,11 +572,12 @@ img {
 
 @media screen and (min-width: 1200px) {
   .padding-list {
-    width: 1200px;
+    width: 1600px;
     padding-top: 94px;
     padding-bottom: 94px;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 }
 
@@ -683,7 +705,7 @@ img {
 }
 
 .photo__img-info {
-  max-width: 370px;
+  width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
   text-align: center;
@@ -781,6 +803,7 @@ img {
   .padding-team {
     display: flex;
     flex-wrap: wrap;
+    padding: 60px 15px 45px 15px;
   }
 }
 
@@ -898,6 +921,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1210,7 +1234,6 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-flex {
     display: flex;
-    padding-left: 15px;
     padding-right: 15px;
     width: 352px;
   }
@@ -1220,6 +1243,13 @@ img {
   padding-left: auto;
   padding-right: auto;
   padding-top: 60px;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-conteiner {
+    padding-left: auto;
+    padding-right: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1240,12 +1270,13 @@ img {
   background-color: var(--footer-hero-background-color);
   padding-right: auto;
   padding-left: auto;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 @media screen and (min-width: 480px) {
   .footer {
     width: 480px;
-    padding-bottom: 60px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1254,7 +1285,6 @@ img {
 @media screen and (min-width: 768px) {
   .footer {
     width: 768px;
-    padding-bottom: 60px;
   }
 }
 
@@ -1264,6 +1294,7 @@ img {
     height: 252px;
     padding-right: 215px;
     padding-left: 215px;
+    text-align: left;
   }
 }
 
@@ -1321,6 +1352,7 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1335,14 +1367,8 @@ img {
   }
 }
 
-.list-info {
-  margin-right: 165px;
-  margin-left: 76px;
-}
-
 @media screen and (min-width: 480px) {
   .list-info {
-    margin-bottom: 60px;
     margin-left: 124px;
     margin-right: 124px;
     text-align: center;
@@ -1352,6 +1378,8 @@ img {
 @media screen and (min-width: 768px) {
   .list-info {
     text-align: center;
+    margin-right: 165px;
+    margin-left: 76px;
   }
 }
 
@@ -1381,7 +1409,9 @@ img {
 }
 
 .box-footer {
-  width: 206px;
+  max-width: 206px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -1412,6 +1442,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   font-style: normal;
+  text-align: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -1439,6 +1470,7 @@ img {
   padding: 12px;
   border-radius: 50%;
   cursor: pointer;
+  margin-bottom: 60px;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1449,6 +1481,12 @@ img {
 
 .box-social-footer:not(:last-child) {
   margin-right: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .box-social-footer {
+    margin-bottom: 0px;
+  }
 }
 
 .icon-footer {
@@ -1465,6 +1503,7 @@ img {
   color: var(--primary-color-title);
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .portfolio-text {
@@ -1472,6 +1511,7 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-color-paragraph);
+  margin-left: 24px;
 }
 
 .subscription {
@@ -1484,24 +1524,6 @@ img {
   color: #ffffff;
 }
 
-@media screen and (min-width: 480px) {
-  .footer-text {
-    margin-left: 137px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .footer-text {
-    margin-left: 288px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-text {
-    margin-left: 0px;
-  }
-}
-
 .subscription-input {
   display: block;
   padding-top: 15px;
@@ -1511,6 +1533,8 @@ img {
   margin-bottom: 20px;
   height: 50px;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1623,7 +1647,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .list-button {
-    padding: 94px 494px 50px 494px;
+    padding-left: 297px;
   }
 }
 
@@ -1636,15 +1660,12 @@ img {
 }
 
 .list {
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 .portfolio {
   padding: 0 15px 30px 15px;
-  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1667,7 +1688,7 @@ img {
 }
 
 .link-box {
-  max-width: 450px;
+  width: 450px;
   height: 404px;
 }
 
