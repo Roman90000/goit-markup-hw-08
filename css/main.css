@@ -113,6 +113,7 @@ img {
     width: 1200px;
     height: 80px;
     padding-bottom: 25px;
+    padding-right: 15px;
     padding-top: 24px;
     margin-right: auto;
     margin-left: auto;
@@ -215,7 +216,7 @@ img {
 }
 
 .header__icon-mail {
-  max-width: 16px;
+  width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
@@ -277,6 +278,13 @@ img {
     font-weight: 500;
     font-size: 12px;
     line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__link-icon {
+    font-size: 14px;
+    width: 161px;
   }
 }
 
@@ -505,6 +513,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    width: 1600px;
+  }
+}
+
 .hero__title {
   color: var(--primary-body-color);
   font-style: normal;
@@ -693,9 +707,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hiden-container {
+    width: 1200px;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 200px;
   }
 }
 
@@ -801,7 +815,7 @@ img {
 }
 
 .padding-team {
-  padding: 60px 15px 60px 15px;
+  padding: 60px 15px 30px 15px;
 }
 
 @media screen and (min-width: 768px) {

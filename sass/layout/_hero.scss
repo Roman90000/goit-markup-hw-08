@@ -8,6 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
+  // max-width: 1600px;
   
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Header-img-mob.jpg);
@@ -46,7 +47,11 @@
               }
   }
 }
-
+@media screen and (min-width: 1200px) {
+.hero{
+  width: 1600px;
+}
+}
 .hero__title {
 color: var(--primary-body-color);
 font-style: normal;
