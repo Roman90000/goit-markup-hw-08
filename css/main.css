@@ -1531,6 +1531,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-color-paragraph);
   margin-left: 24px;
+  margin-bottom: 20px;
 }
 
 .subscription {
@@ -1655,18 +1656,13 @@ img {
 }
 
 .list-button {
-  padding: 60px 15px 40px 15px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .list-button {
     padding: 60px 78px 30px 78px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .list-button {
-    padding-left: 297px;
   }
 }
 
@@ -1679,6 +1675,7 @@ img {
 }
 
 .list {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1702,19 +1699,18 @@ img {
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(100% / 3);
+    margin-left: 215px;
+    margin-right: 215px;
   }
 }
 
 .link-box {
-  width: 450px;
-  height: 404px;
+  max-width: 450px;
 }
 
 @media screen and (min-width: 768px) {
   .link-box {
     width: 354px;
-    height: 440px;
   }
 }
 
