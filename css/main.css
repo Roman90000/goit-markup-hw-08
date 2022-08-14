@@ -551,6 +551,14 @@ img {
   padding-top: 60px;
   padding-bottom: 30px;
   list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .padding-list {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -580,6 +588,12 @@ img {
 
 .list__heading {
   text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  .list__heading {
+    max-width: 450px;
+  }
 }
 
 .list__svg {
