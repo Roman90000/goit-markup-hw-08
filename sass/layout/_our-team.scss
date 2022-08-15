@@ -16,9 +16,7 @@
 
 .our-team {
   background-color: var(--background-our-team);
-  // width: 480px;
-  // margin-left: auto;
-  // margin-right: auto;
+
   @media screen and (min-width: 480px) {
       width: 480px;
       margin-right: auto;
@@ -28,13 +26,13 @@
   @media screen and (min-width: 768px) {
       width: 768px;
       margin-right: auto;
-        margin-left: auto;
+      margin-left: auto;
     }
 
   @media screen and (min-width: 1200px) {
       width: 1600px;
       margin-right: auto;
-        margin-left: auto;
+      margin-left: auto;
     }
 }
 
@@ -68,17 +66,15 @@
   padding: 60px 15px 30px 15px;
 
   @media screen and (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 60px 15px 45px 15px;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 15px 45px 15px;
+  }
 
   @media screen and (min-width: 1200px) {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    // padding-left: 215px;
-    // padding-right: 215px;
   }
 }
 
@@ -89,17 +85,13 @@
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 30px;
 
-  // @media screen and (min-width: 480px) {
-  //     &:not(:last-child) {
-  //       margin-bottom: 0px;
-  //     }
-  //   }
   @media screen and (min-width: 768px) {
       width: 354px;
       &:nth-child(2n + 1) {
         margin-right: 30px;
       }
     }
+
   @media screen and (min-width: 1200px) {
     width: 270px;
 
@@ -108,7 +100,3 @@
     }
   }
 }
-
-// .pfoto-team:last-child {
-//   margin-bottom: 0px;
-// }
