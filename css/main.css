@@ -629,7 +629,7 @@ img {
   .list__heading:nth-child(2n+1) {
     margin-right: 30px;
   }
-  .list__heading:nth-child(3n+1) {
+  .list__heading:nth-child(n+3) {
     margin-bottom: 0px;
   }
 }
@@ -725,9 +725,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hiden-container {
-    width: 1200px;
     display: block;
-    margin-left: 200px;
   }
 }
 
