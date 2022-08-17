@@ -474,6 +474,12 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header-img-mob.jpg);
 }
 
+@media screen and (min-width: 480px) {
+  .hero {
+    width: 480px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     width: 768px;
@@ -507,7 +513,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1600px;
+    width: 100%;
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -518,12 +524,6 @@ img {
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-2x.jpg);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero {
-    width: 1600px;
   }
 }
 
