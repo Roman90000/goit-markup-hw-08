@@ -6,9 +6,12 @@
 //   }
 // }
 .footer-box {
+  background-color: var(--footer-hero-background-color);
+  // padding-bottom: 60px;
 
   @media screen and (min-width: 1200px) {
       display: flex;
+      // padding-bottom: 0px;
     }
 }
 
@@ -24,6 +27,7 @@
         @media screen and (min-width: 1200px) {
           padding-left: 0px;
           padding-right: 0px;
+          padding-bottom: 60px;
         }
 }
 
@@ -53,30 +57,38 @@
   // padding-right: auto;
   // padding-left: auto;
   // padding-bottom: 60px;
-  text-align: center;
+  text-align: left;
 
   @media screen and (min-width: 480px) {
-      width: 480px;
-      margin-right: auto;
-      margin-left: auto;
-  }
+      text-align: center;
+    }
 
   @media screen and (min-width: 768px) {
-    width: 768px;
-  }
+        text-align: center;
+      }
 
-  @media screen and (min-width: 1200px) {
-    // display: flex;
-    width: 1600px;
-    // padding-top: 60px;
-    // height: 252px;
-    // padding-right: 215px;
-    // padding-left: 215px;
-    text-align: left;
-    display: flex;
+  // @media screen and (min-width: 480px) {
+  //     width: 480px;
+  //     margin-right: auto;
+  //     margin-left: auto;
+  // }
 
-    // align-items: baseline;
-  }
+  // @media screen and (min-width: 768px) {
+  //   width: 768px;
+  // }
+
+  // @media screen and (min-width: 1200px) {
+  //   // display: flex;
+  //   width: 1600px;
+  //   // padding-top: 60px;
+  //   // height: 252px;
+  //   // padding-right: 215px;
+  //   // padding-left: 215px;
+  //   text-align: left;
+  //   display: flex;
+
+  //   // align-items: baseline;
+  // }
 }
 
 .list-footer {
@@ -169,6 +181,7 @@
   @media screen and (min-width: 1200px) {
     width: 231px;
     margin-right: 70px;
+    margin-bottom: 0px;
     // margin-left: 0px;
     // padding-left: 15px;
   }
@@ -191,6 +204,11 @@
 }
 
 .box-footer {
+
+  @media screen and (min-width: 480px) {
+      margin-bottom: 60px;
+    }
+  
 @media screen and (min-width: 1200px) {
         margin-right: 93px;
   }
@@ -348,7 +366,7 @@
 }
 
 .subscription-box {
-  // padding-top: 60px;
+  padding-bottom: 60px;
 
   @media screen and (min-width: 768px) {
       padding-top: 0px;
@@ -356,7 +374,7 @@
 
   @media screen and (min-width: 1200px) {
     display: flex;
-    margin-top: 72px;
+    padding-top: 60px;
     // padding-botton: 0px;
     // width: 570px;
   }
@@ -372,7 +390,7 @@
   padding-left: 29px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
 
   font-style: normal;
   font-weight: 700;
