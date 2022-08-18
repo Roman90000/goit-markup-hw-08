@@ -16,9 +16,9 @@
   }
 
   @media screen and (min-width: 1200px) {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 60px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 60px;
   }
 }
 
@@ -69,7 +69,6 @@
   font-size: 24px;
   line-height: 1.16;
   font-style: normal;
-  letter-spacing: 0.03em;
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -82,16 +81,15 @@
   }
 
   @media screen and (min-width: 1200px) {
-    font-size: 26px;
-    line-height: 1.19;
-    height: 31px;
+      font-size: 26px;
+      line-height: 1.19;
+      height: 31px;
   }
 }
 
 .address {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-body-color);
   font-style: normal;
   font-weight: normal;
@@ -103,17 +101,16 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 1.5;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-align: center;
 
-  @media screen and (min-width: 768px) {
-      text-align: center;
-  }
+    @media screen and (min-width: 768px) {
+        text-align: center;
+    }
 
-  @media screen and (min-width: 1200px) {
-    text-align: left;
-  }
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
 }
 
 .list-info {
@@ -154,7 +151,7 @@
     }
   
 @media screen and (min-width: 1200px) {
-        margin-right: 93px;
+      margin-right: 93px;
   }
 }
 
@@ -163,11 +160,14 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   font-style: normal;
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
 }
 
 .social-networks-footer {
@@ -194,6 +194,7 @@
   &:hover {
     background-color: #2196f3;
   }
+
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -224,7 +225,6 @@
 .portfolio-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--primary-color-paragraph);
   margin-left: 24px;
   margin-bottom: 20px;
@@ -235,9 +235,12 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+  @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
 } 
 
 .subscription-input {
@@ -279,8 +282,8 @@
     }
 
   @media screen and (min-width: 1200px) {
-    display: flex;
-    padding-top: 60px;
+      display: flex;
+      padding-top: 60px;
     }    
 }
 
@@ -311,8 +314,7 @@
   @media screen and (min-width: 1200px) {
     margin-top: 36px;
     margin-left: 0px;
-    padding-bottom: 0px;
-      height: 50px;
+    height: 50px;
   }
 }
 
