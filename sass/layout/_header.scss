@@ -345,9 +345,8 @@
   padding-right: 10px;
 }
 
-@media screen and (min-width: 480px) {
 .border {
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-  transform: rotate(90deg);  
-}  
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+      
 }

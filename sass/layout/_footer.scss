@@ -8,11 +8,14 @@
 
 .footer-flex {
   padding-top: 60px;
+  padding-bottom: 60px;
     
   @media screen and (min-width: 768px) {
       display: flex;
-      padding-left: 61px;
-      padding-right: 74px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: baseline;
+      padding: 60px 89px 60px 76px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -125,7 +128,7 @@
   @media screen and (min-width: 1200px) {
     width: 231px;
     margin-right: 70px;
-    margin-bottom: 0px;
+    text-align: left;
   }
 }
 
@@ -275,7 +278,7 @@
 }
 
 .subscription-box {
-  padding-bottom: 60px;
+  text-align: center;
 
   @media screen and (min-width: 768px) {
       padding-top: 0px;
@@ -283,7 +286,6 @@
 
   @media screen and (min-width: 1200px) {
       display: flex;
-      padding-top: 60px;
     }    
 }
 
