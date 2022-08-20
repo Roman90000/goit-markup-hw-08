@@ -97,6 +97,7 @@
   font-style: normal;
   font-weight: normal;
   margin-bottom: 9px;
+  width: 231px;
 }
 
 .info {
@@ -126,8 +127,8 @@
   }
   
   @media screen and (min-width: 1200px) {
-    width: 231px;
     margin-right: 70px;
+    margin-bottom: 0px;
     text-align: left;
   }
 }
