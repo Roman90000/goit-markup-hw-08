@@ -807,7 +807,6 @@ img {
 @media screen and (min-width: 768px) {
   .pfoto-team {
     width: 354px;
-    height: 536px;
   }
   .pfoto-team:nth-child(2n + 1) {
     margin-right: 30px;
