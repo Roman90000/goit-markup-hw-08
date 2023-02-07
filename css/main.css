@@ -1172,6 +1172,7 @@ img {
   letter-spacing: 0.06em;
   border: none;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .checbox-text {
@@ -1182,6 +1183,8 @@ img {
   color: #2196f3;
   text-decoration: underline;
   margin-left: 5px;
+  text-underline-position: under;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1200px) {
