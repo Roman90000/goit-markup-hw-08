@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,AAAC,CACJ,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,KAAK,AAAC,CACJ,eAAe,CAAE,IAAI,CACtB",
-    "sources": [
-        "../sass/base/common.scss"
-    ],
-    "names": [],
-    "file": "common.min.css"
-}
+{"version":3,"sources":["../sass/base/common.scss"],"names":[],"mappings":"AAAA,MACE,eAAA,CAGF,MACE,oBAAA","file":"common.min.css"}
