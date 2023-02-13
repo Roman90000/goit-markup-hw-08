@@ -2,26 +2,26 @@
   background-color: var(--footer-hero-background-color);
 
   @media screen and (min-width: 1200px) {
-      display: flex;
-    }
+    display: flex;
+  }
 }
 
 .footer-flex {
   padding-top: 60px;
   padding-bottom: 60px;
-    
+
   @media screen and (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: baseline;
-      padding: 60px 89px 60px 76px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    padding: 60px 89px 60px 76px;
   }
 
   @media screen and (min-width: 1200px) {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 60px;
   }
 }
 
@@ -31,19 +31,19 @@
   padding-top: 60px;
 
   @media screen and (min-width: 480px) {
-      padding-left: auto;
-      padding-right: auto;
-    }
+    padding-left: auto;
+    padding-right: auto;
+  }
 
   @media screen and (min-width: 768px) {
-      display: flex;
-    }
+    display: flex;
+  }
 
   @media screen and (min-width: 1200px) {
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 0px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+  }
 }
 
 .footer {
@@ -51,12 +51,12 @@
   text-align: left;
 
   @media screen and (min-width: 480px) {
-      text-align: center;
-    }
+    text-align: center;
+  }
 
   @media screen and (min-width: 768px) {
-        text-align: center;
-    }
+    text-align: center;
+  }
 }
 
 .list-footer {
@@ -79,14 +79,14 @@
   margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
-      font-style: normal;
-      height: 28px;
+    font-style: normal;
+    height: 28px;
   }
 
   @media screen and (min-width: 1200px) {
-      font-size: 26px;
-      line-height: 1.19;
-      height: 31px;
+    font-size: 26px;
+    line-height: 1.19;
+    height: 31px;
   }
 }
 
@@ -97,24 +97,24 @@
   font-style: normal;
   font-weight: normal;
   margin-bottom: 9px;
-  width: 231px;
+  // width: 231px;
 }
 
 .info {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
     text-align: center;
+  }
 
-    @media screen and (min-width: 768px) {
-        text-align: center;
-    }
-
-    @media screen and (min-width: 1200px) {
-      text-align: left;
-    }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .list-info {
@@ -125,7 +125,7 @@
     text-align: center;
     margin-right: auto;
   }
-  
+
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
     margin-bottom: 0px;
@@ -149,13 +149,12 @@
 }
 
 .box-footer {
-
   @media screen and (min-width: 480px) {
-      margin-bottom: 60px;
-    }
-  
-@media screen and (min-width: 1200px) {
-      margin-right: 93px;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
   }
 }
 
@@ -170,8 +169,8 @@
   text-align: center;
 
   @media screen and (min-width: 1200px) {
-      text-align: left;
-    }
+    text-align: left;
+  }
 }
 
 .social-networks-footer {
@@ -180,7 +179,7 @@
   justify-content: center;
 
   @media screen and (min-width: 768px) {
-      margin-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -243,9 +242,9 @@
   color: #ffffff;
 
   @media screen and (min-width: 1200px) {
-      text-align: left;
-    }
-} 
+    text-align: left;
+  }
+}
 
 .subscription-input {
   display: block;
@@ -264,29 +263,29 @@
   background-color: var(--footer-hero-background-color);
 
   @media screen and (min-width: 768px) {
-      width: 450px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   @media screen and (min-width: 1200px) {
-      margin-bottom: 0px;
-      margin-right: 12px;
-      margin-left: 0px;
-      width: 358px;
-    }
+    margin-bottom: 0px;
+    margin-right: 12px;
+    margin-left: 0px;
+    width: 358px;
+  }
 }
 
 .subscription-box {
   text-align: center;
 
   @media screen and (min-width: 768px) {
-      padding-top: 0px;
-    }
+    padding-top: 0px;
+  }
 
   @media screen and (min-width: 1200px) {
-      display: flex;
-    }    
+    display: flex;
+  }
 }
 
 .button-email {

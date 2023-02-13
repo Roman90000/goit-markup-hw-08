@@ -93,7 +93,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 @media screen and (min-width: 768px) {
   .header__main-nav {
     height: 80px;
@@ -101,7 +100,6 @@ img {
     padding-bottom: 21px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .header__main-nav {
     padding-bottom: 25px;
@@ -142,7 +140,6 @@ img {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-
 @media screen and (min-width: 768px) {
   .header-list {
     height: 38px;
@@ -161,7 +158,6 @@ img {
     margin-right: 88px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .header-list {
     margin-right: 305px;
@@ -173,7 +169,6 @@ img {
     width: 138px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .header-list-info {
     display: -webkit-box;
@@ -186,7 +181,6 @@ img {
     margin-right: 0px;
   }
 }
-
 .header__web {
   color: var(--header-web);
 }
@@ -201,13 +195,11 @@ img {
   margin-right: auto;
   display: inline-block;
 }
-
 @media screen and (min-width: 768px) {
   .header__logo {
     margin-right: 85px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .header__logo {
     margin-right: 93px;
@@ -237,7 +229,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  display: inline-block;
+  display: block;
   position: relative;
 }
 
@@ -251,7 +243,6 @@ img {
   position: absolute;
   top: 45px;
 }
-
 @media screen and (min-width: 1200px) {
   .header__underline::after {
     top: 45px;
@@ -275,7 +266,6 @@ img {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .header__link-icon:hover, .header__link-icon:focus {
   color: var(--color-link);
 }
@@ -430,7 +420,7 @@ img {
 }
 
 .color {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .mob-item:not(:last-child) {
@@ -447,7 +437,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #2196F3;
+  color: #2196f3;
   display: block;
   margin-bottom: 32px;
 }
@@ -482,7 +472,7 @@ img {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color: #2196f3;
   text-decoration: none;
   margin-right: 10px;
   padding-right: 10px;
@@ -1407,7 +1397,6 @@ img {
   font-style: normal;
   font-weight: normal;
   margin-bottom: 9px;
-  width: 231px;
 }
 
 .info {
